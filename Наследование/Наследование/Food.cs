@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Наследование
 {
-    internal class Food
+    public class Food : Product
     {
+
     }
 }
