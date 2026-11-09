@@ -41,5 +41,10 @@ namespace Наследование
         {
             return count_;
         }
+
+        public virtual double CalculateDiscount()
+        {
+            return 0;
+        }
     }
 }

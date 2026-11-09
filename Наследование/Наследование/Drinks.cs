@@ -8,6 +8,21 @@ namespace Наследование
 {
     public class Drinks : Product
     {
-
+        public override double CalculateDiscount()
+        {
+            if (count_ >= 20 && count_ < 150)
+            {
+                return 10;
+            }
+            else if (count_ >= 150 && count_ < 300)
+            {
+                return 30;
+            }
+            else if (count_ >= 300)
+            {
+                return 50;
+            }
+            return base.CalculateDiscount();
+        }
     }
 }
