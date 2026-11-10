@@ -48,7 +48,7 @@ namespace Наследование
             drink3.SetCount(350);
             products.Add(drink3);
 
-            foreach (var item in products)
+            foreach (Product item in products)
             {
                 string name = item.GetName();
                 int price = item.GetPrice();
